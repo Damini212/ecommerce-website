@@ -102,10 +102,6 @@ h1 {
   font-weight: bold;
 }
 .remove-btn {
-  background-color: black;
-  color: white;
-  height: 30px;
-  width: 80px;
-  margin: 10px;
-  font-weight: bold;
+  height: 20px;
+  padding: 10px;
 }

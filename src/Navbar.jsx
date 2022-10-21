@@ -82,12 +82,11 @@ export default function Navbar(props) {
                   <div>
                     Price: <br></br> £{quantity * jewel.price}
                   </div>
-                  <button
+                  <img
+                    src="/trash-can.svg"
                     onClick={() => props.removeItem(jewel.id)}
                     className="remove-btn"
-                  >
-                    Remove
-                  </button>
+                  />
                 </div>
               </div>
             );
