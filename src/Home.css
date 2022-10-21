@@ -1,0 +1,36 @@
+#root,
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.background-page {
+  background-image: url("./assets/diamond.webp");
+  height: 100vh;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50%;
+}
+.product-home {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+}
+.page-wrapper {
+  display: flex;
+  padding: 10px;
+}
+.product-detail {
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  box-shadow: 1px 1px 5px 0px;
+  padding-top: 60px;
+}
+.product-image-home {
+  height: 250px;
+  width: 250px;
+}

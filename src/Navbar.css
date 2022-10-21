@@ -1,0 +1,111 @@
+.heading {
+  background-color: rgb(27, 17, 1);
+  height: 100px;
+  text-align: center;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  position: relative;
+}
+.list-items {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+}
+#root,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+h1 {
+  margin: 0;
+}
+.drop-down {
+  position: absolute;
+  right: 0;
+  border: 1px rgb(12, 12, 12) solid;
+  width: 500px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-top: 0;
+  margin-right: 10px;
+  padding: 0;
+  color: black;
+  background-color: white;
+}
+
+.count {
+  color: white;
+}
+
+.cart-product {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.cart-product-wrapper {
+  padding: 20px;
+}
+.cart-img {
+  border: none;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.item-count {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(154, 209, 209);
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.cart-number {
+  display: flex;
+}
+
+.nav-link {
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  border: white 1px solid;
+}
+
+.product-image-nav {
+  height: 200px;
+  width: 200px;
+}
+.add-btn,
+.subtract-btn {
+  background-color: rgb(206, 215, 215);
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 5px;
+}
+.add-btn:hover,
+.subtract-btn:hover {
+  background-color: rgb(114, 173, 173);
+}
+.pay-btn {
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 110px;
+  margin: 10px;
+  font-weight: bold;
+}
+.remove-btn {
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 80px;
+  margin: 10px;
+  font-weight: bold;
+}
