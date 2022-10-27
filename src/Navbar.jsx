@@ -26,16 +26,14 @@ export default function Navbar(props) {
           <Link to="/"> Home </Link>
         </li>
         <li className="nav-link">
-          <Link to="/"> Contact Us </Link>
+          <a href="#footer">Contact Us</a>
         </li>
         <li onClick={delivery} className="nav-link">
           Delivery
         </li>
+
         <li className="nav-link">
-          <Link to="/">Careers</Link>
-        </li>
-        <li className="nav-link">
-          <Link to="/">Sale</Link>
+          <Link to="/reviews">Reviews</Link>
         </li>
         <div className="cart-number">
           <img src="/cart.png" className="cart-img" onClick={toggle} />

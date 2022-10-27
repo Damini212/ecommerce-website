@@ -1,0 +1,68 @@
+.text-area {
+  height: 200px;
+  width: 440px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.submit-btn {
+  background-color: black;
+  color: white;
+  height: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.review-wrapper {
+  padding: 20px;
+}
+.firstName,
+.lastName {
+  height: 30px;
+  width: 200px;
+  margin-bottom: 10px;
+
+  font-size: large;
+}
+.firstName {
+  margin-right: 10px;
+}
+
+.stars {
+  font-size: 20px;
+}
+.star {
+  height: 15px;
+}
+.text-area {
+  height: 200px;
+  width: 440px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.submit-btn {
+  background-color: black;
+  color: white;
+  height: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.review-wrapper {
+  padding: 20px;
+}
+.firstName,
+.lastName {
+  height: 30px;
+  width: 200px;
+  margin-bottom: 10px;
+
+  font-size: large;
+}
+.firstName {
+  margin-right: 10px;
+}
+
+.stars {
+  font-size: 20px;
+}
+.star {
+  height: 15px;
+}

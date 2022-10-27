@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Navbar";
-
 import Home from "./Home";
 import ProductItem from "./ProductItem";
+import Reviews from "./Reviews";
 
 function App() {
   const [jewel, setJewel] = useState([]);
@@ -101,6 +101,9 @@ function App() {
             count={count}
             addToCart={addToCart}
           />
+        </Route>
+        <Route path="/reviews">
+          <Reviews />
         </Route>
       </Switch>
     </Router>
